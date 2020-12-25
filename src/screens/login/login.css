@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Merriweather&display=swap');
+.container{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card{
+    background:#B81D24;
+    width: 30%;
+    height: 50%;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tittel{
+    top: 70px;
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bangers', cursive;
+}
+.tittel-text{
+    font-size: 1.5rem;
+    color:#ffffff ;
+    text-shadow: 1px 1px;
+}
+.inputs{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inputs input{
+    padding: .3rem;
+    margin-bottom: 1rem;
+    width: 40%;
+    height: 2rem;
+    border-radius: 1rem;
+    
+}
+.action{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.auth{
+    width: 40%;
+    background: #1d4575;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.auth span{
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-family: 'Bangers', cursive;
+}
